@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотека "Читательская гавань"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в библиотеку "Читательская гавань"</h1>
+        <p>Ваш источник знаний и удовольствия</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="каталог.html">Каталог книг</a></li>
+            <li><a href="контакты.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>О нашей библиотеке</h2>
+        <p>Добро пожаловать в нашу гавань художественной литературы. У нас вы найдете богатый выбор произведений искусства слова, погрузитесь в миры фантазии и эмоций, и окунитесь в удивительные истории. Наши библиотекари всегда готовы помочь вам найти интересующие книги и поделиться с вами рекомендациями. Вдохновитесь историями, которые оживают на страницах наших книг.</p>
+
+        <h2>Поиск книг</h2>
+        <form action="поиск.php" method="post">
+            <label for="search">Найти книгу:</label>
+            <input type="text" id="search" name="search">
+            <input type="submit" value="Поиск">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Библиотека "Читательская гавань". Все права защищены.</p>
+    </footer>
+</body>
+</html>
